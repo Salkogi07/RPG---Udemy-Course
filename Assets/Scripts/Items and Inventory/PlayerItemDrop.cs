@@ -15,14 +15,6 @@ public class PlayerItemDrop : ItemDrop
         List<InventoryItem> itemsToUnequip = new List<InventoryItem>();
         List<InventoryItem> materialsToLoose = new List<InventoryItem>();
 
-        foreach (InventoryItem item in inventory.GetEquipmentList())
-        {
-            if (Random.Range(0, 100) <= chanceToLooseItems)
-            {
-                DropItem(item.data);
-                itemsToUnequip.Add(item);
-            }
-        }
 
         for (int i = 0; i < itemsToUnequip.Count; i++)
         {
@@ -31,14 +23,6 @@ public class PlayerItemDrop : ItemDrop
 
 
 
-        foreach (InventoryItem item in inventory.GetStashList())
-        {
-            if (Random.Range(0, 100) <= chanceToLooseMaterials)
-            {
-                DropItem(item.data);
-                materialsToLoose.Add(item);
-            }
-        }
 
         for (int i = 0; i < materialsToLoose.Count; i++)
         {

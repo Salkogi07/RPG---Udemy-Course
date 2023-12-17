@@ -14,6 +14,7 @@ public class SkillManager : MonoBehaviour
     public Crystal_Skill crystal { get; private set; }
     public Parry_Skill parry { get; private set; }
     public Dodge_Skill dodge { get; private set; }
+    public HpItem hp { get; private set; }
 
     private void Awake()
     {
@@ -25,6 +26,7 @@ public class SkillManager : MonoBehaviour
 
     private void Start()
     {
+        hp = GetComponent<HpItem>();
         dash = GetComponent<Dash_Skill>();
         clone = GetComponent<Clone_Skill>();
         sword = GetComponent<Sword_Skill>();

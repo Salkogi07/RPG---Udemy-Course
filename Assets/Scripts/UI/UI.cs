@@ -36,8 +36,6 @@ public class UI : MonoBehaviour, ISaveManager
     {
         SwitchTo(inGameUI);
 
-        itemToolTip.gameObject.SetActive(false);
-        statToolTip.gameObject.SetActive(false);
 
         //gameObject.SetActive(false);
     }
@@ -48,10 +46,6 @@ public class UI : MonoBehaviour, ISaveManager
 
         if (Input.GetKeyDown(KeyCode.C))
             SwitchWithKeyTo(charcaterUI);
-
-        if (Input.GetKeyDown(KeyCode.B))
-            SwitchWithKeyTo(craftUI);
-
 
         if (Input.GetKeyDown(KeyCode.K))
             SwitchWithKeyTo(skillTreeUI);

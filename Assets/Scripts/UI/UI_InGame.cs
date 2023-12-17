@@ -52,7 +52,7 @@ public class UI_InGame : MonoBehaviour
             SetCooldownOf(blackholeImage);
 
 
-        if (Input.GetKeyDown(KeyCode.Alpha1) && Inventory.instance.GetEquipment(EquipmentType.Flask) != null)
+        if (Input.GetKeyDown(KeyCode.Alpha1))
             SetCooldownOf(flaskImage);
 
         CheckCooldownOf(dashImage, skills.dash.cooldown);
@@ -61,7 +61,7 @@ public class UI_InGame : MonoBehaviour
         CheckCooldownOf(swordImage, skills.sword.cooldown);
         CheckCooldownOf(blackholeImage, skills.blackhole.cooldown);
 
-        CheckCooldownOf(flaskImage, Inventory.instance.flaskCooldown);
+        CheckCooldownOf(flaskImage, 60);
 
     }
 

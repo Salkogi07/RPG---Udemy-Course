@@ -46,11 +46,6 @@ public class PlayerStats : CharacterStats
             AudioManager.instance.PlaySFX(randomSound, null);
             
         }
-
-        ItemData_Equipment currentArmor = Inventory.instance.GetEquipment(EquipmentType.Armor);
-
-        if (currentArmor != null)
-            currentArmor.Effect(player.transform);
     }
 
     public override void OnEvasion()

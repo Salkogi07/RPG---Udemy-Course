@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7ca7ace700d3e164d921d6df2995044b
+guid: f798122fccdd1b24e9675320507be7c8
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - NeoDunggeunmo Pro
+  - Danjo-bold
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

@@ -63,11 +63,11 @@ public class UI_StatSlot : MonoBehaviour , IPointerEnterHandler, IPointerExitHan
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        ui.statToolTip.ShowStatToolTip(statDescription);
+        //ui.statToolTip.ShowStatToolTip(statDescription);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        ui.statToolTip.HideStatToolTip();
+        //ui.statToolTip.HideStatToolTip();
     }
 }

@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 7546619776816806399}
   m_Layer: 7
   m_Name: Enemy_Slime_Big
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -534,7 +534,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1768169261
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: -10
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.6862745}
@@ -803,7 +803,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1768169261
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1575814570, guid: 5b37f7e31a19796489c254db0005907c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -836,6 +836,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &7546619778332356735
 MonoBehaviour:
   m_ObjectHideFlags: 0

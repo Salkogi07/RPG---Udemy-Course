@@ -5079,7 +5079,7 @@ GameObject:
   - component: {fileID: 1290535682618644356}
   m_Layer: 7
   m_Name: Enemy_DeathBringer
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15292,6 +15292,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1290535683279904734
 MonoBehaviour:
   m_ObjectHideFlags: 0

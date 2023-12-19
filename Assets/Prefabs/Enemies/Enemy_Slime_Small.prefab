@@ -54,7 +54,7 @@ GameObject:
   - component: {fileID: 3308331503114907103}
   m_Layer: 7
   m_Name: Enemy_Slime_Small
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -493,6 +493,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &4048380562382049622
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -220,6 +220,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &8516486506499785206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -705,7 +706,7 @@ GameObject:
   - component: {fileID: 1775923172579521935}
   m_Layer: 7
   m_Name: Enemy_Slime_Medium
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

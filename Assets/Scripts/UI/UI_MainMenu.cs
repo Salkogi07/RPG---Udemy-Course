@@ -15,9 +15,9 @@ public class UI_MainMenu : MonoBehaviour
             continueButton.SetActive(false);
     }
 
-    public void ContinueGame()
+    public void TutorialGame()
     {
-        StartCoroutine(LoadSceneWithFadeEffect(1.5f));
+        StartCoroutine(LoadSceneTutorialWithFadeEffect(1.5f));
     }
 
     public void NewGame()
@@ -30,6 +30,14 @@ public class UI_MainMenu : MonoBehaviour
     {
         Debug.Log("Exit game");
         //Application.Quit();
+    }
+    IEnumerator LoadSceneTutorialWithFadeEffect(float _delay)
+    {
+        fadeScreen.FadeOut();
+
+        yield return new WaitForSeconds(_delay);
+
+        SceneManager.LoadScene("TutorialScene");
     }
 
     IEnumerator LoadSceneWithFadeEffect(float _delay)

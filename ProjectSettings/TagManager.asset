@@ -4,8 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - StatValue
-  - StatName
+  - Enemy
   layers:
   - Default
   - TransparentFX

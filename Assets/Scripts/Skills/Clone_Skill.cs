@@ -40,10 +40,10 @@ public class Clone_Skill : Skill
         base.Start();
 
 
-        cloneAttackUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockCloneAttack);
-        aggresiveCloneUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockAggresiveClone);
-        multipleUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockMultiClone);
-        crystalInseadUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockCrystalInstead);
+      //  cloneAttackUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockCloneAttack);
+      //  aggresiveCloneUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockAggresiveClone);
+      //  multipleUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockMultiClone);
+       // crystalInseadUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockCrystalInstead);
     }
 
     #region Unlock region
@@ -57,37 +57,37 @@ public class Clone_Skill : Skill
 
     private void UnlockCloneAttack()
     {
-        if (cloneAttackUnlockButton.unlocked)
-        {
-            canAttack = true;
-            attackMultiplier = cloneAttackMultiplier;
-        }
+      //  if (cloneAttackUnlockButton.unlocked)
+      //  {
+       //     canAttack = true;
+       //     attackMultiplier = cloneAttackMultiplier;
+       // }
     }
 
     private void UnlockAggresiveClone()
     {
-        if (aggresiveCloneUnlockButton.unlocked)
-        {
-            canApplyOnHitEffect = true;
-            attackMultiplier = aggresiveCloneAttackMultiplier;
-        }
+     //   if (aggresiveCloneUnlockButton.unlocked)
+     //   {
+     //       canApplyOnHitEffect = true;
+      //      attackMultiplier = aggresiveCloneAttackMultiplier;
+     //   }
     }
 
     private void UnlockMultiClone()
     {
-        if (multipleUnlockButton.unlocked)
-        {
-            canDuplicateClone = true;
-            attackMultiplier = multiCloneAttackMultiplier;
-        }
+       // if (multipleUnlockButton.unlocked)
+      //  {
+      //      canDuplicateClone = true;
+      //      attackMultiplier = multiCloneAttackMultiplier;
+      //  }
     }
 
     private void UnlockCrystalInstead()
     {
-        if(crystalInseadUnlockButton.unlocked)
-        {
-            crystalInseadOfClone = true;
-        }
+      //  if(crystalInseadUnlockButton.unlocked)
+     //   {
+      //      crystalInseadOfClone = true;
+      //  }
     }
 
 

@@ -41,11 +41,11 @@ public class Crystal_Skill : Skill
     {
         base.Start();
 
-        unlockCrystalButton.GetComponent<Button>().onClick.AddListener(UnlockCrystal);
-        unlockCloneInstaedButton.GetComponent<Button>().onClick.AddListener(UnlockCrystalMirage);
-        unlockExplosiveButton.GetComponent<Button>().onClick.AddListener(UnlockExplosiveCrystal);
-        unlockMovingCrystalButton.GetComponent<Button>().onClick.AddListener(UnlockMovingCrystal);
-        unlockMultiStackButton.GetComponent<Button>().onClick.AddListener(UnlockMultiStack);
+       // unlockCrystalButton.GetComponent<Button>().onClick.AddListener(UnlockCrystal);
+    //    unlockCloneInstaedButton.GetComponent<Button>().onClick.AddListener(UnlockCrystalMirage);
+     //   unlockExplosiveButton.GetComponent<Button>().onClick.AddListener(UnlockExplosiveCrystal);
+     //   unlockMovingCrystalButton.GetComponent<Button>().onClick.AddListener(UnlockMovingCrystal);
+     //   unlockMultiStackButton.GetComponent<Button>().onClick.AddListener(UnlockMultiStack);
 
     }
 
@@ -65,35 +65,35 @@ public class Crystal_Skill : Skill
     }
     private void UnlockCrystal()
     {
-        if (unlockCrystalButton.unlocked)
-            crystalUnlocked = true;
+        //if (unlockCrystalButton.unlocked)
+        //    crystalUnlocked = true;
     }
 
     private void UnlockCrystalMirage()
     {
-        if (unlockCloneInstaedButton.unlocked)
-            cloneInsteadOfCrystal = true;
+       // if (unlockCloneInstaedButton.unlocked)
+       //     cloneInsteadOfCrystal = true;
     }
 
     private void UnlockExplosiveCrystal()
     {
-        if (unlockExplosiveButton.unlocked)
-        {
-            canExplode = true;
-            cooldown = explisoveCooldown;
-        }
+       // if (unlockExplosiveButton.unlocked)
+      //  {
+      //      canExplode = true;
+      //      cooldown = explisoveCooldown;
+      //  }
     }
 
     private void UnlockMovingCrystal()
     {
-        if (unlockMovingCrystalButton.unlocked)
-            canMoveToEnemy = true;
+        // if (unlockMovingCrystalButton.unlocked)
+       //     canMoveToEnemy = true;
     }
 
     private void UnlockMultiStack()
     {
-        if (unlockMovingCrystalButton.unlocked)
-            canUseMultiStacks = true;
+       // if (unlockMovingCrystalButton.unlocked)
+       //     canUseMultiStacks = true;
     }
 
     #endregion     // here we unlock crystal skills

@@ -56,9 +56,9 @@ public class GameManager : MonoBehaviour, ISaveManager
     }
     public void RestartScene()
     {   
-        SaveManager.instance.SaveGame();
-        Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
+        //SaveManager.instance.SaveGame();
+       // Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene("MainMenu");
     }
 
     
